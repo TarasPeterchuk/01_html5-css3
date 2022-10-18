@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.text {
+  position: relative;
+  float: left;
+  margin: 16px;
+  border-bottom: 1px dotted black;
+}
+.tooltip {
+  display: none;
+  position: absolute;
+
+  background-color: grey;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  bottom: -40px;
+}
+.text:hover .tooltip {
+  display: block;
+}
