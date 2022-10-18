@@ -86,7 +86,7 @@ img {
     display: flex;
   }
   .navigation {
-    width: 20%;
+    width: 30%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -96,18 +96,15 @@ img {
   }
   .sect {
     display: flex;
+    width: 80%;
   }
-
   .navigation {
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
   }
   .section {
-    flex-grow: 1;
-    flex-shrink: 3;
+    flex: 3;
   }
   .news {
-    flex-grow: 1;
-    flex-shrink: 1;
+    width: 20%;
   }
 }
