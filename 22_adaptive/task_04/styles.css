@@ -35,14 +35,15 @@ i {
   color: white;
   height: 2em;
   margin-bottom: 0.5em;
+  padding: 0.5em;
 }
 .nav-list-link {
-  display: block;
   text-decoration: none;
   color: white;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  display: block;
 }
 @media screen and (max-width: 599px) {
   .navigation {
