@@ -99,12 +99,15 @@ img {
   }
 
   .navigation {
-    width: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
   .section {
-    width: 60%;
+    flex-grow: 1;
+    flex-shrink: 3;
   }
   .news {
-    width: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
