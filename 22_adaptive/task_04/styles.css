@@ -6,16 +6,21 @@ html {
   font-size: 16px;
 }
 .header {
+  display: flex;
+  align-items: center;
   height: 3em;
-  padding: 1em;
+  padding: 0 1em;
   background-color: #eee;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: none;
 }
 i {
   font-size: 2em;
-}
-button {
-  padding: 0;
-  cursor: pointer;
 }
 .nav-list {
   list-style: none;
@@ -41,13 +46,11 @@ button {
 }
 @media screen and (max-width: 599px) {
   .navigation {
-    /* visibility: hidden; */
     display: none;
   }
 }
 @media screen and (min-width: 600px) {
-  .header {
-    /* visibility: hidden; */
+  button {
     display: none;
   }
 }
