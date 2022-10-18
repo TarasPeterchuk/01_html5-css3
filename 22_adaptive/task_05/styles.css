@@ -99,10 +99,10 @@ img {
     width: 80%;
   }
   .navigation {
-    flex-grow: 2;
+    flex: 2;
   }
   .section {
-    flex-grow:: 6;
+    flex: 6;
   }
   .news {
     width: 20%;
